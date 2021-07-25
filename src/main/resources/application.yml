@@ -1,6 +1,7 @@
 # 端口
 server:
   port: 8090
+
 spring:
   profiles:
     active: dev
@@ -8,6 +9,8 @@ spring:
     multipart:
       max-file-size: 100MB
       max-request-size: 500MB
+  application:
+    name: springbootDemo
 
 
 #打印SQL日志
