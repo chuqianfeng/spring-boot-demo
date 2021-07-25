@@ -1,0 +1,8 @@
+# 端口
+
+upload:
+  baseurl: D:\upload\
+#    druid:
+#      driver-class-name: com.mysql.jdbc.Driver
+
+

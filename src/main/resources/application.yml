@@ -1,0 +1,19 @@
+# 端口
+server:
+  port: 8090
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 500MB
+
+
+#打印SQL日志
+logging:
+  level:
+    com:
+      bngrp:
+        mapper: debug
+
